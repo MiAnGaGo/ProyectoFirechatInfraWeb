@@ -11,12 +11,14 @@ import { ChatComponent } from './components/chat/chat.component';
 import { FormsModule } from '@angular/forms';
 import { ChatService } from './providers/chat.service';
 import { LoginComponent } from './components/login/login.component';
+import { ContactosComponent } from './components/contactos/contactos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChatComponent,
-    LoginComponent
+    LoginComponent,
+    ContactosComponent
   ],
   imports: [
     BrowserModule,

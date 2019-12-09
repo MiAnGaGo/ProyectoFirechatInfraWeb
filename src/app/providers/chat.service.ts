@@ -46,7 +46,6 @@ export class ChatService {
           this.chats.unshift(mensaje);
         }
         return this.chats;
-        //this.chats = mensajes
       }));
   }
   agregarMensaje(texto: string) {
